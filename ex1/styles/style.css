@@ -1,9 +1,13 @@
 /* Basic styles */
 body {
     font-family: 'Barlow', sans-serif;
-    background-color: #f0f2f5;
-    color: #212121;
+    color: #fff;
     margin: 0;
+    background-image: url("/Sprint13-Async/ex1/assets/home/background-home-desktop.jpg");
+    /* Your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 h1,
@@ -37,7 +41,7 @@ header {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     margin: 0;
     padding: 0;
 }
